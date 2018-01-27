@@ -1,0 +1,25 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    font-size:40px;
+}
+
+.clock{
+    text-align:center;
+    width:auto;
+    height:auto;
+    background:blue;
+}
+.time
+{
+    width:30vh;
+    height:8vh;
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+}
