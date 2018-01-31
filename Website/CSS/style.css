@@ -1,0 +1,269 @@
+body
+{
+background: linear-gradient(to left,#006600,#00b300,#00ff00,#33ff33,#66ff66);
+	}
+
+.btn 
+{
+	margin-left:38%;
+	margin-top:16%;
+	cursor:pointer;
+	outline : none !important;
+}
+
+.btn:hover{
+	-moz-border-radius: 25%/25%;
+	-webkit-border-radius: 25%/25%;
+	border-radius: 25%/25%;
+	border: solid 2px black;
+	width: 25%;
+	height: 29%;
+}
+
+.Dimg
+{
+	 width: 25%;
+    height: 25%;
+	margin-right:10%;
+	margin-top:2%;
+    -webkit-animation: mymove 5s finite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s ;
+    animation-delay: 1s;
+	animation-direction:normal;
+	animation-fill-mode:forwards;
+}
+@-webkit-keyframes mymove {
+    from {left: 23%; }
+    to {left: 10%; top : 12%;}
+	
+}
+
+@keyframes mymove {
+    from {left: 16%;}
+    to {left: 7%; top : 12%;}
+
+}
+
+.Dimg:hover
+{
+	width:30%;
+	height:30%;
+}
+
+.dimg1
+{
+	 width: 25%;
+    height: 25%;
+    -webkit-animation: mymove1 5s finite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation: mymove1 5s ;
+    animation-delay: 1s;
+	animation-fill-mode:forwards;
+}
+@-webkit-keyframes mymove1 {
+    from {right: 16%;}
+    to {right: 10%; top:15%;}
+}
+
+@keyframes mymove1 {
+    from {right: 16%;}
+    to {right: 5%;top:15%;}
+
+}
+.dimg1:hover
+{
+	width:30%;
+	height:30%;
+}
+
+
+.dimg2
+{
+	 width: 25%;
+    height: 25%;
+    -webkit-animation: mymove2 5s finite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation: mymove2 5s ;
+    animation-delay: 1s;
+	animation-fill-mode:forwards;
+}
+@-webkit-keyframes mymove2 {
+    from {left: 21%;}
+    to {left: 10%; top:60%;}
+}
+
+@keyframes mymove2 {
+    from {left: 19%;}
+    to {left: 7%;top:60%;}
+
+}
+.dimg2:hover
+{
+	width:30%;
+	height:30%;
+}
+
+.dimg3
+{
+	 width: 25%;
+    height: 25%;
+    -webkit-animation: mymove3 5s finite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation: mymove3 5s ;
+    animation-delay: 1s;
+	animation-fill-mode:forwards;
+}
+@-webkit-keyframes mymove3 {
+    from {right: 19%;}
+    to {right: 7%; top:60%;}
+}
+
+@keyframes mymove3 {
+    from {right: 19%;}
+    to {right: 7%;top:60%;}
+
+}
+
+.dimg3:hover
+{
+	width:30%;
+	height:30%;
+}
+
+.container-fluid
+{
+	background-color:transparent;
+	border-radius:5px;
+	margin-top:1%;
+	width:98%;
+}
+.head
+{
+	font-style:bold;
+	color:black;
+	text-shadow:3px 0 white;
+	font-family:algerian;
+	margin-top:-4vh;
+	margin-left:90%;
+	font-size:200%;
+}
+.head-line
+{
+	border:1px solid black;
+}
+.reg
+{
+	color:black;
+	font-size:200%;
+	font-style:bold;
+	text-shadow:2px 0 white;
+	font-family:Bernard MT Condensed;
+}
+.glyphicon.glyphicon-fire
+{
+	margin-top:-2vh;
+	font-size:200%;
+}
+.log
+{
+	text-shadow:2px 0 white;
+	color:black;
+	font-size:200%;
+	font-style:bold;
+	font-family:Bernard MT Condensed;
+}
+.abt
+{
+	text-shadow:2px 0 white;
+	color:black;
+	font-size:200%;
+	font-style:bold;
+	font-family: Bernard MT Condensed;
+}
+
+ul.nav.navbar-nav.navbar-right li a
+{
+	text-shadow:1px 0 white;
+
+}
+
+ul.nav.navbar-nav.navbar-right li a:hover
+{
+	background-color:black;
+	text-shadow:3px 0 green;
+	border-top:2px solid green;
+	border-bottom:2px solid green;
+	color:white;
+}
+	
+.glyphicon.glyphicon-fire:hover
+{
+	text-shadow:2px 0 white;
+}
+	
+.footer ul li{
+	color:black;
+	float:left;
+	list-style-type:circle;
+	padding:0%;
+	margin-top:28vh;
+	margin-left:12%;
+	font-size:150%;
+	
+
+}
+.footer{
+	margin-left:2%;
+	width:96%;
+	padding-bottom:12%;
+	border-bottom:2px solid black;
+}
+
+
+
+.foo
+{
+	
+	text-shadow:2px 0 white;
+}
+
+.abu
+{
+	color:black;
+	font-family: Bernard MT Condensed;
+}
+ul.foo li a:hover
+{
+	background-color:black;
+	text-shadow:3px 0 green;
+	border-top:2px solid green;
+	border-bottom:2px solid green;
+	color:white;
+	font-size:120%;
+}
+
+.con
+{
+	color:black;
+	font-family: Bernard MT Condensed;
+}
+
+.help{
+	color:black;
+	font-family: Bernard MT Condensed;
+}
+
+.pri
+{
+	color:black;
+	font-family: Bernard MT Condensed;
+}
+
+.ter
+{
+	color:black;
+	font-family: Bernard MT Condensed;
+
+}
+

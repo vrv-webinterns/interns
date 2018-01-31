@@ -1,0 +1,56 @@
+body
+{
+	background-image: url("back1.png");
+	
+}
+.but1{
+				padding:1%;
+		margin-left:90%;
+		margin-top:1%;
+		background-color:transparent;
+		border:2px solid black;
+		color:black;
+		font-family:algerian;
+		
+		}
+		
+		.but1:hover{
+		 
+			background-color:black;
+			text-shadow:4px 0 green;
+			border-top:2px solid green;
+			border-bottom:2px solid green;
+			color:white;
+		 }
+.but
+{
+	margin-top:3%;
+	margin-left:5%;
+	width:20%;
+	padding:1%;
+	text-shadow:3px 0 white;
+	background:transparent;
+	font-size:100%;
+	font-family:cooper black;
+	color::#003300; 
+	border-bottom:2px solid black;
+	border-right:2px solid white;
+	border-bottom-style:ridge;
+}
+
+
+.but:hover
+{
+	background-color:#009900;
+	text-shadow:3px 0 green;
+	border:2px solid black;
+	color:white;
+	width:30%;
+	height:10%;
+	cursor:pointer;
+}
+.img
+{
+	padding-top:10%;
+	padding-left:5%;
+}

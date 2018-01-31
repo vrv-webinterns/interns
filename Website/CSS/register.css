@@ -1,0 +1,72 @@
+body
+{
+	background: linear-gradient(to right,gray,lightgray,lightgray,gray);
+}
+
+.but1{
+		margin-left:92%;
+		font-size:120%;
+		background-color:transparent;
+		border:none;
+		color:black;
+		background-color:black;
+		border:2px solid white;
+			text-shadow:3px 0 white;
+		}
+		
+		.but1:hover{
+		 
+			background-color:black;
+			text-shadow:3px 0 blue;
+			border-top:2px solid blue;
+			border-bottom:2px solid blue;
+			color:white;
+		 }
+.head
+{
+	background-color:hsl(0, 0%, 94%);    
+	border:2px solid green;
+	margin-top:5%;
+	width:45%;
+	height:80%;
+}
+.h
+{
+	text-shadow: 2px 2px green;
+	font-family:algerian;
+	font-size:35px;
+	font-style:bold;
+}
+.gen
+{
+	width:70%;
+	height:5%;
+	background-color: #ccffcc;
+	border:2px solid white;
+}
+	
+.but
+{
+	width:70%;
+	text-align:center;
+	height:5%;
+	background-color: #ccffcc;
+
+}
+.dat
+{
+	width:70%;
+	height:5%;
+	background-color: #ccffcc;
+}
+.reg
+{
+	background-color:green;
+	color:white;
+	font-family:algerian;
+    width:70%;
+	height:13%;
+	font-size:50px;
+	text-shadow: 2px 2px;
+	
+}

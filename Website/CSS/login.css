@@ -1,0 +1,57 @@
+body
+{
+	background: linear-gradient(to right,lightgray,powderblue,green);
+}
+
+
+.but1{
+		margin-left:92%;
+		font-size:120%;
+		background-color:transparent;
+		border:none;
+		color:black;
+		background-color:black;
+		border:2px solid white;
+			text-shadow:3px 0 white;
+		}
+		
+		.but1:hover{
+		 
+			background-color:black;
+			text-shadow:3px 0 blue;
+			border-top:2px solid blue;
+			border-bottom:2px solid blue;
+			color:white;
+		 }
+
+.head
+{
+	background-color:#b3ffb3;
+	border:2px solid green;
+	margin-top:10%;
+	width:40%;
+	height:60%;
+}
+.h
+{
+	text-shadow: 2px 2px;
+	font-family:algerian;
+	font-size:50px;
+	font-style:bold;
+}
+.but
+{
+	width:70%;
+	text-align:center;
+	height:10%;
+	background-color:powderblue;
+}
+.login
+{
+	background-color:green;
+	color:white;
+	font-family:algerian;
+	font-size:25px;
+	width:70%;
+	height:10%;
+}
